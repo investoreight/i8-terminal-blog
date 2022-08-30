@@ -899,3 +899,59 @@ iframe {
     opacity: 0;
     transition: opacity .25s;
 }
+
+.contact li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.contact ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+.social {
+    color: #008000;
+}
+
+.address .icon, .address .info {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.address .info {
+    padding-left: 15px;
+}
+
+.address .info h5 {
+    font-weight: 600;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: #232323;
+}
+
+.address li i {
+    background: #edf5ff none repeat scroll 0 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #00b08f ;
+    font-size: 25px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    width: 60px;
+}
+
+.address li span {
+color: #999999;
+}
+
+.address li {
+display: block;
+margin-top: 15px;
+}
+
+.address li:first-child {
+margin-top: 0;
+}
